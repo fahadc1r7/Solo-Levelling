@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "30-Day Abs Challenge",
+    "type": "strength",
+    "duration": 30,
+    "rules": "Complete the daily ab workout for 30 consecutive days.",
+    "benefits": "Improved core strength and endurance."
+  },
+  {
+    "id": 2,
+    "title": "Running Streak",
+    "type": "cardio",
+    "duration": 20,
+    "rules": "Run at least 2km every day for 21 days.",
+    "benefits": "Better stamina and cardiovascular health."
+  },
+  {
+    "id": 3,
+    "title": "Flexibility Flow",
+    "type": "flexibility",
+    "duration": 15,
+    "rules": "Stretch for 15 minutes daily for 15 days.",
+    "benefits": "Increased flexibility and reduced injury risk."
+  },
+  {
+  "id": 4,
+  "title": "Fat Burn Blast",
+  "type": "cardio",
+  "duration": 28,
+  "rules": "Complete a 20-minute HIIT fat-burn session every day for 28 days.",
+  "benefits": "Increased calorie burn and improved metabolism."
+},
+{
+  "id": 5,
+  "title": "Hyrox Prep Challenge",
+  "type": "strength",
+  "duration": 42,
+  "rules": "Follow the hybrid strength + endurance program 5 days a week for 6 weeks.",
+  "benefits": "Race-ready strength, speed, and functional endurance."
+},
+{
+  "id": 6,
+  "title": "Calisthenics Mastery",
+  "type": "strength",
+  "duration": 35,
+  "rules": "Practice bodyweight skill progressions (push-ups, pull-ups, dips) daily for 35 days.",
+  "benefits": "Improved bodyweight strength, control, and muscle definition."
+}
+]
