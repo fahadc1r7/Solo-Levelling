@@ -1,13 +1,20 @@
-import React from 'react'
-import ChallengeList from '../components/ChallengeList'
+import { useState } from "react"
+import Hero from "../components/Hero"
+import ChallengeList from "../components/ChallengeList"
+import ChallengeFilter from "../components/ChallengeFilter"
+
 
 const Home = () => {
+  const [selectedType, setSelectedType] = useState("All")
   return (
     <div>
-        <h1 className='text-center fw-bold p-3'>Home Page</h1>
-        <h2 className='text-center fw-bold'>Challenges</h2>
-        <p className='text-center'>Break Your Limits</p>
-        <ChallengeList/>
+      <Hero />
+      <div id="challenges" className="container">
+        <h1 className="text-center m-4">Challenges</h1>
+        <p className="text-center">Break Your Limits</p>
+        <ChallengeFilter selectedType={selectedType} setSelectedType={setSelectedType}/>
+        <ChallengeList  selectedType={selectedType}/>
+      </div>
     </div>
   )
 }

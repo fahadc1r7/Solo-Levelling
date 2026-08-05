@@ -5,15 +5,21 @@
     "type": "strength",
     "duration": 30,
     "rules": "Complete the daily ab workout for 30 consecutive days.",
-    "benefits": "Improved core strength and endurance."
+    "benefits": "Improved core strength and endurance.",
+    "dailyTime": "20 mins/day",
+    "workouts": ["Crunches", "Plank", "Leg Raises", "Russian Twists"],
+    "equipment": ["Mat", "None required"]
   },
   {
     "id": 2,
     "title": "Running Streak",
     "type": "cardio",
     "duration": 20,
-    "rules": "Run at least 2km every day for 21 days.",
-    "benefits": "Better stamina and cardiovascular health."
+    "rules": "Run at least 1km every day for 20 days.",
+    "benefits": "Better stamina and cardiovascular health.",
+    "dailyTime": "15-30 mins/day",
+    "workouts": ["Steady-pace run", "Warm-up jog", "Cool-down walk"],
+    "equipment": ["Running shoes"]
   },
   {
     "id": 3,
@@ -21,30 +27,75 @@
     "type": "flexibility",
     "duration": 15,
     "rules": "Stretch for 15 minutes daily for 15 days.",
-    "benefits": "Increased flexibility and reduced injury risk."
+    "benefits": "Increased flexibility and reduced injury risk.",
+    "dailyTime": "15 mins/day",
+    "workouts": ["Hamstring stretch", "Hip openers", "Shoulder mobility", "Spinal twist"],
+    "equipment": ["Mat", "None required"]
   },
   {
-  "id": 4,
-  "title": "Fat Burn Blast",
+    "id": 4,
+    "title": "Fat Burn Blast",
+    "type": "cardio",
+    "duration": 28,
+    "rules": "Complete a 20-minute HIIT fat-burn session every day for 28 days.",
+    "benefits": "Increased calorie burn and improved metabolism.",
+    "dailyTime": "20 mins/day",
+    "workouts": ["Jumping jacks", "Burpees", "Mountain climbers", "High knees"],
+    "equipment": ["None required"]
+  },
+  {
+    "id": 5,
+    "title": "Hyrox Prep Challenge",
+    "type": "strength",
+    "duration": 42,
+    "rules": "Follow the hybrid strength + endurance program 5 days a week for 6 weeks.",
+    "benefits": "Race-ready strength, speed, and functional endurance.",
+    "dailyTime": "45-60 mins/day",
+    "workouts": ["Sled push", "Rowing", "Farmer's carry", "Wall balls", "Sandbag lunges"],
+    "equipment": ["Sled", "Rowing machine", "Dumbbells", "Sandbag"]
+  },
+  {
+    "id": 6,
+    "title": "Calisthenics Mastery",
+    "type": "strength",
+    "duration": 35,
+    "rules": "Practice bodyweight skill progressions (push-ups, pull-ups, dips) daily for 35 days.",
+    "benefits": "Improved bodyweight strength, control, and muscle definition.",
+    "dailyTime": "30 mins/day",
+    "workouts": ["Push-ups", "Pull-ups", "Dips", "Squats"],
+    "equipment": ["Pull-up bar", "Parallel bars (optional)"]
+  },
+  {
+  "id": 7,
+  "title": "Yoga Discipline",
+  "type": "flexibility",
+  "duration": 21,
+  "rules": "Complete a 25-minute yoga flow every day for 21 days.",
+  "benefits": "Improved balance, mindfulness, and full-body flexibility.",
+  "dailyTime": "25 mins/day",
+  "workouts": ["Sun Salutations", "Warrior Pose", "Downward Dog", "Child's Pose"],
+  "equipment": ["Yoga mat"]
+},
+{
+  "id": 8,
+  "title": "Push-Up Progression",
+  "type": "strength",
+  "duration": 30,
+  "rules": "Increase daily push-up reps following a progressive plan for 30 days.",
+  "benefits": "Stronger chest, shoulders, and triceps.",
+  "dailyTime": "10-15 mins/day",
+  "workouts": ["Standard Push-ups", "Diamond Push-ups", "Incline Push-ups", "Wide Push-ups"],
+  "equipment": ["None required"]
+},
+{
+  "id": 9,
+  "title": "Jump Rope Cardio Blitz",
   "type": "cardio",
-  "duration": 28,
-  "rules": "Complete a 20-minute HIIT fat-burn session every day for 28 days.",
-  "benefits": "Increased calorie burn and improved metabolism."
-},
-{
-  "id": 5,
-  "title": "Hyrox Prep Challenge",
-  "type": "strength",
-  "duration": 42,
-  "rules": "Follow the hybrid strength + endurance program 5 days a week for 6 weeks.",
-  "benefits": "Race-ready strength, speed, and functional endurance."
-},
-{
-  "id": 6,
-  "title": "Calisthenics Mastery",
-  "type": "strength",
-  "duration": 35,
-  "rules": "Practice bodyweight skill progressions (push-ups, pull-ups, dips) daily for 35 days.",
-  "benefits": "Improved bodyweight strength, control, and muscle definition."
+  "duration": 14,
+  "rules": "Jump rope for 10 minutes daily for 14 days.",
+  "benefits": "Improved coordination, endurance, and calorie burn.",
+  "dailyTime": "10 mins/day",
+  "workouts": ["Basic Jump", "High Knees Jump", "Double Unders", "Alternate Foot Step"],
+  "equipment": ["Jump rope"]
 }
 ]

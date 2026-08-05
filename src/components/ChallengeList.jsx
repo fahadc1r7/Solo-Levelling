@@ -1,10 +1,14 @@
 import React from "react";
 import challenges from "../data/challenges.json";
 import ChallengeCard from "./ChallengeCard";
-const ChallengeList = () => {
+
+const ChallengeList = ({selectedType}) => {
+  const filtered = selectedType === "all"
+  ? challenges
+  : challenges.filter((c) => c.type === selectedType)
   return (
     <div className="d-flex  justify-content-center flex-wrap">
-      {challenges.map((challenge) => (
+      {filtered.map((challenge) => (
         <ChallengeCard key={challenge.id} challenge={challenge} />
       ))}
     </div>
