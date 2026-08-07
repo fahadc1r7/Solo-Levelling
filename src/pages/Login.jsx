@@ -37,7 +37,7 @@ const Login = () => {
             <input type="email"  className='form-control mb-3 ' style={{maxWidth:"300px"}} placeholder='Enter Email' onChange={(e)=> setEmail(e.target.value)} required/>
             <input type="password"  className='form-control mb-3 ' style={{maxWidth:"300px"}} placeholder='Enter password' value={password} onChange={(e)=> setPassword(e.target.value)} required/>
             {error && <p className='text-danger'>{error}</p>}
-            <button className='btn btn-outline-dark'>Login</button>
+            <button className='btn btn-outline-success'>Login</button>
         </form>
 
         <p className='mt-3'>

@@ -8,7 +8,7 @@ const ChallengeFilter = ({selectedType, setSelectedType}) => {
         {types.map((type)=>(
             <button
             key={type}
-            className={`btn ${selectedType === type ? "btn-dark": "btn-outline-dark"}`}
+            className={`btn ${selectedType === type ? "btn-dark": "btn-outline-light"}`}
             onClick={()=> setSelectedType(type)}>
             {type}
             </button>

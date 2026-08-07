@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <div id="challenges" className="container py-5" style={{scrollMarginBottom: "80px"}}>
+      <div id="challenges" className="container-fluid py-5 section-dark" style={{scrollMarginBottom: "80px"}}>
         <h1 className="text-center m-2">Challenges</h1>
         <p className="text-center">Break Your Limits</p>
         <ChallengeFilter selectedType={selectedType} setSelectedType={setSelectedType}/>

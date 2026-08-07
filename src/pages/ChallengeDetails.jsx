@@ -25,7 +25,7 @@ const ChallengeDetails = () => {
           <p>Type: {challange.type}</p>
           <p>Duration: {challange.duration}</p>
           <p>Benefits: {challange.benefits}</p>
-          <button className="btn btn-outline-dark btn-lg mt-3"
+          <button className="btn btn-outline-light btn-lg mt-3"
           onClick={handleJoin}
           disabled={joined}>
 

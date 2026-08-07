@@ -81,7 +81,7 @@ const Signup = () => {
 
             {error && <p className='text-danger'>{error}</p>}
 
-        <button type='submit' className='btn btn-outline-dark'>Sign Up</button>
+        <button type='submit' className='btn btn-outline-warning'>Sign Up</button>
 
         </form>
           

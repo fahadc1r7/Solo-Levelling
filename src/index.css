@@ -1,9 +1,16 @@
 :root {
-  --font-heading: 'Orbitron', sans-serif;
+ --font-heading: 'Orbitron', sans-serif;
   --font-body: 'Rajdhani', sans-serif;
+  --bg-dark: #0a0e1a;
+  --bg-card: #12172b;
+  --accent-blue: #4dd8ff;
+  --accent-blue-glow: rgba(77, 216, 255, 0.5);
+  --border-blue: rgba(77, 216, 255, 0.3);
 }
 
 body {
+  background-color: var(--bg-dark);
+  color: #fff;
   font-family: var(--font-body);
   
 }
@@ -12,3 +19,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
 }
 
+.section-dark {
+  background-color: var(--bg-dark);
+}
+
+.card-solo {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-blue);
+  color: #fff;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-solo:hover {
+  box-shadow: 0 0 20px var(--accent-blue-glow);
+  transform: translateY(-5px);
+}
+
+.text-accent {
+  color: var(--accent-blue);
+}
