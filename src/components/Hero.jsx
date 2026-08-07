@@ -1,16 +1,14 @@
 import React from "react";
-
+import heroImage from "../assets/sung-jinwoo-dragon.jpg"
 const Hero = () => {
   const scrollChallenges = () => {
-    document
-      .getElementById("challenges")
-      .scrollIntoView({ behavior: "smooth" });
+    document.getElementById("challenges").scrollIntoView({ behavior: "smooth" });
   };
   return (
     <div
       className="position-relative d-flex flex-column justify-content-center align-items-center text-center"
       style={{
-        backgroundImage: "url('/src/assets/sung-jinwoo-dragon.jpg')",
+        backgroundImage: `url(${heroImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
