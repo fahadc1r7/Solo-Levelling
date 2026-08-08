@@ -5,10 +5,12 @@ import Dashboard from "./pages/Dashboard"
 import Navbar from "./components/Navbar"
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
+import ScrollToTop from "./components/ScrollToTop"
 
 const App = () => {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>}/>

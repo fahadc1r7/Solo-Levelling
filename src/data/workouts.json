@@ -1,0 +1,254 @@
+[
+  {
+    "id": "crunches",
+    "name": "Crunches",
+    "image": "crunches.png",
+    "sets": "3 sets x 20 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "image": "plank.png",
+    "sets": "3 sets",
+    "time": "5 mins"
+  },
+  {
+    "id": "leg-raises",
+    "name": "Leg Raises",
+    "image": "legrise.png",
+    "sets": "3 sets x 15 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "russian-twists",
+    "name": "Russian Twists",
+    "image": "russiantwist.png",
+    "sets": "3 sets x 20 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "steady-pace-run",
+    "name": "Steady-Pace Run",
+    "image": "steady-pace-run.png",
+    "sets": "1 set",
+    "time": "20 mins"
+  },
+  {
+    "id": "warm-up-jog",
+    "name": "Warm-up Jog",
+    "image": "warm-up-jog.png",
+    "sets": "1 set",
+    "time": "5 mins"
+  },
+  {
+    "id": "cool-down-walk",
+    "name": "Cool-down Walk",
+    "image": "cool-down-walk.png",
+    "sets": "1 set",
+    "time": "5 mins"
+  },
+  {
+    "id": "hamstring-stretch",
+    "name": "Hamstring Stretch",
+    "image": "hamstring-stretch.png",
+    "sets": "2 sets",
+    "time": "30 seconds"
+  },
+  {
+    "id": "hip-openers",
+    "name": "Hip Openers",
+    "image": "hip-openers.png",
+    "sets": "2 sets",
+    "time": "1 minute"
+  },
+  {
+    "id": "shoulder-mobility",
+    "name": "Shoulder Mobility",
+    "image": "shoulder-mobility.png",
+    "sets": "2 sets",
+    "time": "1 minute"
+  },
+  {
+    "id": "spinal-twist",
+    "name": "Spinal Twist",
+    "image": "spinal-twist.png",
+    "sets": "2 sets",
+    "time": "30 seconds"
+  },
+  {
+    "id": "jumping-jacks",
+    "name": "Jumping Jacks",
+    "image": "jumping-jacks.png",
+    "sets": "3 sets x 30 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "burpees",
+    "name": "Burpees",
+    "image": "burpees.png",
+    "sets": "3 sets x 10 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "mountain-climbers",
+    "name": "Mountain Climbers",
+    "image": "mountain-climbers.png",
+    "sets": "3 sets x 20 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "high-knees",
+    "name": "High Knees",
+    "image": "high-knees.png",
+    "sets": "3 sets x 30 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "sled-push",
+    "name": "Sled Push",
+    "image": "sled-push.png",
+    "sets": "3 sets",
+    "time": "5 mins"
+  },
+  {
+    "id": "rowing",
+    "name": "Rowing",
+    "image": "rowing.png",
+    "sets": "3 sets",
+    "time": "5 mins"
+  },
+  {
+    "id": "farmers-carry",
+    "name": "Farmer's Carry",
+    "image": "farmers-carry.png",
+    "sets": "3 sets",
+    "time": "5 mins"
+  },
+  {
+    "id": "wall-balls",
+    "name": "Wall Balls",
+    "image": "wall-balls.png",
+    "sets": "3 sets x 15 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "sandbag-lunges",
+    "name": "Sandbag Lunges",
+    "image": "sandbag-lunges.png",
+    "sets": "3 sets x 10 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "push-ups",
+    "name": "Push-ups",
+    "image": "push-ups.png",
+    "sets": "3 sets x 12 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "pull-ups",
+    "name": "Pull-ups",
+    "image": "pull-ups.png",
+    "sets": "3 sets x 8 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "dips",
+    "name": "Dips",
+    "image": "dips.png",
+    "sets": "3 sets x 10 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "squats",
+    "name": "Squats",
+    "image": "squats.png",
+    "sets": "3 sets x 15 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "sun-salutations",
+    "name": "Sun Salutations",
+    "image": "sun-salutations.png",
+    "sets": "3 rounds",
+    "time": "5 mins"
+  },
+  {
+    "id": "warrior-pose",
+    "name": "Warrior Pose",
+    "image": "warrior-pose.png",
+    "sets": "2 sets per side",
+    "time": "1 minute"
+  },
+  {
+    "id": "downward-dog",
+    "name": "Downward Dog",
+    "image": "downward-dog.png",
+    "sets": "2 sets",
+    "time": "1 minute"
+  },
+  {
+    "id": "childs-pose",
+    "name": "Child's Pose",
+    "image": "childs-pose.png",
+    "sets": "2 sets",
+    "time": "1 minute"
+  },
+  {
+    "id": "standard-push-ups",
+    "name": "Standard Push-ups",
+    "image": "standard-push-ups.png",
+    "sets": "3 sets x 12 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "diamond-push-ups",
+    "name": "Diamond Push-ups",
+    "image": "diamond-push-ups.png",
+    "sets": "3 sets x 8 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "incline-push-ups",
+    "name": "Incline Push-ups",
+    "image": "incline-push-ups.png",
+    "sets": "3 sets x 12 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "wide-push-ups",
+    "name": "Wide Push-ups",
+    "image": "wide-push-ups.png",
+    "sets": "3 sets x 10 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "basic-jump",
+    "name": "Basic Jump",
+    "image": "basic-jump.png",
+    "sets": "3 sets x 30 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "high-knees-jump",
+    "name": "High Knees Jump",
+    "image": "high-knees-jump.png",
+    "sets": "3 sets x 30 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "double-unders",
+    "name": "Double Unders",
+    "image": "double-unders.png",
+    "sets": "3 sets x 15 reps",
+    "time": "5 mins"
+  },
+  {
+    "id": "alternate-foot-step",
+    "name": "Alternate Foot Step",
+    "image": "alternate-foot-step.png",
+    "sets": "3 sets x 30 reps",
+    "time": "5 mins"
+  }
+]
